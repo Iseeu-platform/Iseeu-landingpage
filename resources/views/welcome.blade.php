@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Landing Page - Start Bootstrap Theme</title>
+    <title>ISeeU-Charity - Melhor plataforma para voce que gosta de dor!</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -17,6 +17,7 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="css/scrolling-nav.css" rel="stylesheet">
 
     <!-- Custom styles for this template -->
     <link href="css/landing-page.min.css" rel="stylesheet">
@@ -26,10 +27,25 @@
   <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-light bg-light static-top">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="#">Start Bootstrap</a>
-        <a class="btn btn-primary" href="#">Sign In</a>
+        <a class="navbar-brand js-scroll-trigger" href="#page-top">ISeeU - Charity</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#services">Features</a>
+            </li>
+            <div class="col-12 col-md-6">
+              <button type="submit" class="btn btn-block btn-primary">Sign up!</button>
+            </div>
+          </ul>
+        </div>
       </div>
     </nav>
 
@@ -39,10 +55,10 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h1 class="mb-5">Build a landing page for your business or project and generate more leads!</h1>
+            <h2 class="mb-5">Comece a dor com <strong>ISeeU-Platform</strong>, plataforma pensado em voce que é doar e gosta de ver o sorriso daquele que mais precisa! </h2>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            <form>
+            <form action="{{URL('email')}}" method="get">
               <div class="form-row">
                 <div class="col-12 col-md-9 mb-2 mb-md-0">
                   <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
@@ -156,7 +172,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h2 class="mb-4">Ready to get started? Sign up now!</h2>
+            <h2 class="mb-4">Deixe o seu email para uma melhor experiencia com a nossa plataforma!</h2>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <form>
@@ -175,7 +191,7 @@
     </section>
 
     <!-- Footer -->
-    <footer class="footer bg-light">
+    <footer class="footer bg-dark">
       <div class="container">
         <div class="row">
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
@@ -202,17 +218,17 @@
             <ul class="list-inline mb-0">
               <li class="list-inline-item mr-3">
                 <a href="#">
-                  <i class="fa fa-facebook fa-2x fa-fw"></i>
+                  <i class="fa fa-linkedin fa-2x fa-fw"></i>
                 </a>
               </li>
               <li class="list-inline-item mr-3">
                 <a href="#">
-                  <i class="fa fa-twitter fa-2x fa-fw"></i>
+                  <i class="fa fa-facebook fa-2x fa-fw"></i>
                 </a>
               </li>
               <li class="list-inline-item">
                 <a href="#">
-                  <i class="fa fa-instagram fa-2x fa-fw"></i>
+                  <i class="fa fa-angellist fa-2x fa-fw"></i>
                 </a>
               </li>
             </ul>
@@ -224,6 +240,9 @@
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    
+    <!-- Custom JavaScript for this theme -->
+    <script src="js/scrolling-nav.js"></script>
 
   </body>
 

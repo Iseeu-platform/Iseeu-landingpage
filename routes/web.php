@@ -15,6 +15,9 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('email', function () {
-    return view('temporalpage');
+Route::get('confirmationpage', function(){
+
+    return view('confirmationpage');
 });
+
+Route::post('newsletter','NewsletterController@store');

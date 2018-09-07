@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ISeeU-Charity - Melhor plataforma para voce que gosta de dor!</title>
+    <title>ISeeU - Charity - Melhor plataforma para voce que gosta de dor!</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -55,23 +55,36 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h2 class="mb-5">Comece a dor com <strong>ISeeU-Platform</strong>, plataforma pensado em voce que é doador e gosta de ver o sorriso daquele que mais precisa! </h2>
-          </div>
-          <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            <form action="{{URL('email')}}" method="get">
-              <div class="form-row">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-                </div>
-                <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-                </div>
-              </div>
-            </form>
+            <h2 class="mb-5">Comece a doador com <strong>ISeeU-Platform</strong>, plataforma pensado em voce que é doador e gosta de ver o sorriso daquele que mais precisa! </h2>
           </div>
         </div>
       </div>
     </header>
+
+    <section class="bg-dark text-center">
+        <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
+            <div class="col-xl-9 mx-auto text-white text-center">
+              <h2 class="mb-4">Deixe o seu email para uma melhor experiencia com a nossa plataforma!</h2>
+            </div>
+            @if(session('erro1'))
+            <div class="alert alert-warning">
+                {{session('erro1')}}
+            </div>
+            @endif
+            <form action="{{url('newsletter')}}" method="post" enctype="multipart/form-data"> 
+              <div class="form-row">
+                <div class="col-12 col-md-9 mb-2 mb-md-0">
+                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email..." name="email">
+                </div>
+                <div class="col-12 col-md-3">
+                    {!! csrf_field() !!}
+                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+                </div>
+              </div>
+              <input type="hidden" name="form" value="1">
+            </form>
+          </div>
+    </section>
 
     <!-- Icons Grid -->
     <section class="features-icons bg-light text-center">
@@ -82,7 +95,7 @@
               <div class="features-icons-icon d-flex">
                 <i class="icon-screen-desktop m-auto text-primary"></i>
               </div>
-              <h3>Fully Responsive</h3>
+              <h3>Voluntario</h3>
               <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
             </div>
           </div>
@@ -91,7 +104,7 @@
               <div class="features-icons-icon d-flex">
                 <i class="icon-layers m-auto text-primary"></i>
               </div>
-              <h3>Bootstrap 4 Ready</h3>
+              <h3>Projectos</h3>
               <p class="lead mb-0">Featuring the latest build of the new Bootstrap 4 framework!</p>
             </div>
           </div>
@@ -100,7 +113,7 @@
               <div class="features-icons-icon d-flex">
                 <i class="icon-check m-auto text-primary"></i>
               </div>
-              <h3>Easy to Use</h3>
+              <h3>Doador</h3>
               <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
             </div>
           </div>
@@ -175,17 +188,24 @@
             <h2 class="mb-4">Deixe o seu email para uma melhor experiencia com a nossa plataforma!</h2>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
-            <form>
-              <div class="form-row">
-                <div class="col-12 col-md-9 mb-2 mb-md-0">
-                  <input type="email" class="form-control form-control-lg" placeholder="Enter your email...">
-                </div>
-                <div class="col-12 col-md-3">
-                  <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
-                </div>
+              @if(session('erro2'))
+              <div class="alert alert-warning">
+                  {{session('erro2')}}
               </div>
-            </form>
-          </div>
+              @endif
+              <form action="{{url('newsletter')}}" method="post" enctype="multipart/form-data"> 
+                <div class="form-row">
+                  <div class="col-12 col-md-9 mb-2 mb-md-0">
+                    <input type="email" class="form-control form-control-lg" placeholder="Enter your email..." name="email">
+                  </div>
+                  <div class="col-12 col-md-3">
+                      {!! csrf_field() !!}
+                    <button type="submit" class="btn btn-block btn-lg btn-primary">Sign up!</button>
+                  </div>
+                </div>
+                <input type="hidden" name="form" value="2">
+              </form>
+            </div>
         </div>
       </div>
     </section>
@@ -197,37 +217,37 @@
           <div class="col-lg-6 h-100 text-center text-lg-left my-auto">
             <ul class="list-inline mb-2">
               <li class="list-inline-item">
-                <a href="#">About</a>
+                <a href="#">Sobre</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Contact</a>
+                <a href="#">Contato</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Terms of Use</a>
+                <a href="#">Termo de uso</a>
               </li>
               <li class="list-inline-item">&sdot;</li>
               <li class="list-inline-item">
-                <a href="#">Privacy Policy</a>
+                <a href="#">Politica de privacidade</a>
               </li>
             </ul>
-            <p class="text-muted small mb-4 mb-lg-0">&copy; Your Website 2018. All Rights Reserved.</p>
+            <p class="text-muted small mb-4 mb-lg-0">&copy; ISeeU - Charity 2018. Todos direitos reservados.</p>
           </div>
           <div class="col-lg-6 h-100 text-center text-lg-right my-auto">
             <ul class="list-inline mb-0">
               <li class="list-inline-item mr-3">
-                <a href="#">
+                <a href="https://www.linkedin.com/in/iseeu-platform-661b8316a/">
                   <i class="fa fa-linkedin fa-2x fa-fw"></i>
                 </a>
               </li>
               <li class="list-inline-item mr-3">
-                <a href="#">
+                <a href="https://www.facebook.com/Iseeu-294380324457461/">
                   <i class="fa fa-facebook fa-2x fa-fw"></i>
                 </a>
               </li>
               <li class="list-inline-item">
-                <a href="#">
+                <a href="https://angel.co/iseeu-platform">
                   <i class="fa fa-angellist fa-2x fa-fw"></i>
                 </a>
               </li>

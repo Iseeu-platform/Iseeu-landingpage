@@ -13,7 +13,7 @@ return [
     |
     */
 
-    'name' => env('APP_NAME', 'Laravel'),
+    'name' => env('APP_NAME', 'ISeeU - Charity'),
 
     /*
     |--------------------------------------------------------------------------
@@ -160,6 +160,9 @@ return [
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
 
+
+        NZTim\Mailchimp\MailchimpServiceProvider::class //ADD
+
     ],
 
     /*
@@ -208,6 +211,8 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        'Mailchimp' => NZTim\Mailchimp\MailchimpFacade::class //ADD
 
     ],
 

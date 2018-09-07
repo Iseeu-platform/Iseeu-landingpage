@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "66ca7343889332c2b8ecca11c251430c",
+    "content-hash": "61a1f83a69e5a849b96fa4d6ff37d392",
     "packages": [
         {
             "name": "dnoegel/php-xdg-base-dir",
@@ -208,6 +208,49 @@
                 "schedule"
             ],
             "time": "2018-06-06T03:12:17+00:00"
+        },
+        {
+            "name": "drewm/mailchimp-api",
+            "version": "v2.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/drewm/mailchimp-api.git",
+                "reference": "f532fa26cd6e7d17c9ba40a757d8c6bfee47dace"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/drewm/mailchimp-api/zipball/f532fa26cd6e7d17c9ba40a757d8c6bfee47dace",
+                "reference": "f532fa26cd6e7d17c9ba40a757d8c6bfee47dace",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "php": ">=5.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "7.0.*",
+                "vlucas/phpdotenv": "^2.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "DrewM\\MailChimp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Drew McLellan",
+                    "email": "drew.mclellan@gmail.com",
+                    "homepage": "http://allinthehead.com/"
+                }
+            ],
+            "description": "Super-simple, minimum abstraction MailChimp API v3 wrapper",
+            "homepage": "https://github.com/drewm/mailchimp-api",
+            "time": "2018-02-16T15:31:05+00:00"
         },
         {
             "name": "egulias/email-validator",
@@ -926,6 +969,57 @@
             "time": "2018-07-15T17:25:16+00:00"
         },
         {
+            "name": "nztim/mailchimp",
+            "version": "v3.8",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nztim/mailchimp.git",
+                "reference": "bf372525a7b8acdc1f7df9bfd02ad7e4a206c5af"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nztim/mailchimp/zipball/bf372525a7b8acdc1f7df9bfd02ad7e4a206c5af",
+                "reference": "bf372525a7b8acdc1f7df9bfd02ad7e4a206c5af",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.0.0",
+                "rmccue/requests": "^1.7"
+            },
+            "require-dev": {
+                "mockery/mockery": "~1.0",
+                "phpunit/phpunit": "^6.5"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "NZTim\\Mailchimp\\MailchimpServiceProvider"
+                    ],
+                    "aliases": {
+                        "Mailchimp": "NZTim\\Mailchimp\\MailchimpFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "NZTim\\Mailchimp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Tim",
+                    "email": "tim@nztim.com"
+                }
+            ],
+            "description": "Mailchimp API wrapper, includes Laravel 5 support.",
+            "time": "2018-06-21T23:22:13+00:00"
+        },
+        {
             "name": "paragonie/random_compat",
             "version": "v9.99.99",
             "source": {
@@ -1269,6 +1363,115 @@
                 "uuid"
             ],
             "time": "2018-07-19T23:38:55+00:00"
+        },
+        {
+            "name": "rmccue/requests",
+            "version": "v1.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rmccue/Requests.git",
+                "reference": "87932f52ffad70504d93f04f15690cf16a089546"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rmccue/Requests/zipball/87932f52ffad70504d93f04f15690cf16a089546",
+                "reference": "87932f52ffad70504d93f04f15690cf16a089546",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.2"
+            },
+            "require-dev": {
+                "requests/test-server": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Requests": "library/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "ISC"
+            ],
+            "authors": [
+                {
+                    "name": "Ryan McCue",
+                    "homepage": "http://ryanmccue.info"
+                }
+            ],
+            "description": "A HTTP library written in PHP, for human beings.",
+            "homepage": "http://github.com/rmccue/Requests",
+            "keywords": [
+                "curl",
+                "fsockopen",
+                "http",
+                "idna",
+                "ipv6",
+                "iri",
+                "sockets"
+            ],
+            "time": "2016-10-13T00:11:37+00:00"
+        },
+        {
+            "name": "spatie/laravel-newsletter",
+            "version": "4.2.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/spatie/laravel-newsletter.git",
+                "reference": "6d5bad1984bb0e1032f8070742de60699ba832b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/spatie/laravel-newsletter/zipball/6d5bad1984bb0e1032f8070742de60699ba832b0",
+                "reference": "6d5bad1984bb0e1032f8070742de60699ba832b0",
+                "shasum": ""
+            },
+            "require": {
+                "drewm/mailchimp-api": "^2.4",
+                "illuminate/support": "~5.5.0|~5.6.0|~5.7.0",
+                "php": "~7.0"
+            },
+            "require-dev": {
+                "mockery/mockery": "^1.0",
+                "phpunit/phpunit": "^6.3|^7.0"
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Spatie\\Newsletter\\NewsletterServiceProvider"
+                    ],
+                    "aliases": {
+                        "Newsletter": "Spatie\\Newsletter\\NewsletterFacade"
+                    }
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Spatie\\Newsletter\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Freek Van der Herten",
+                    "email": "freek@spatie.be",
+                    "homepage": "https://murze.be",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Manage newsletters in Laravel",
+            "homepage": "https://github.com/spatie/laravel-newsletter",
+            "keywords": [
+                "laravel",
+                "mailchimp",
+                "newsletter"
+            ],
+            "time": "2018-09-04T08:21:51+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",

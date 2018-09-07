@@ -5,6 +5,7 @@ use Newsletter;
 use Mailchimp;
 
 use Illuminate\Http\Request;
+use PHPUnit\Framework\MockObject\Stub\Exception;
 
 class NewsletterController extends Controller
 {
@@ -28,14 +29,19 @@ class NewsletterController extends Controller
             }
         }
 
-        Mailchimp::subscribe(
+        try{
+            Mailchimp::subscribe(
 
-            '145f5f931a', //list id
-            $request['email'],
-            [],
-            false
-        );
-
+                '145f5f931a', //list id
+                $request['email'],
+                [],
+                false
+            );
+    
+        }catch(Exception $e){
+            return redirect()->back();
+        }
+        
         return view('confirmationpage');
         
     }

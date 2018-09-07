@@ -34,8 +34,8 @@
             <div class="row h-100">
                 <div class="col-lg-7 my-auto">
                     <div class="header-content mx-auto">
-                        <h1 class="mb-5">Uau, obrigado por se inscrever no nosso site, agora você é capaz de começar a fazer sua doação, por favor clique no botão inferior. </h1>
-                        <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Start make donation!</a>
+                        <h1 class="mb-5">Uau, obrigado por inscrever no nosso website, agora você esta pronto começar a fazer sua doação, por favor clique no botão inferior. </h1>
+                        <a href="#download" class="btn btn-outline btn-xl js-scroll-trigger">Quero doar agora!</a>
                     </div>
                 </div>
                 <div class="col-lg-5 my-auto">

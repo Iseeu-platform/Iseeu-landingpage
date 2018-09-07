@@ -55,7 +55,7 @@
       <div class="container">
         <div class="row">
           <div class="col-xl-9 mx-auto">
-            <h2 class="mb-5">Comece a dor com <strong>ISeeU-Platform</strong>, plataforma pensado em voce que é doar e gosta de ver o sorriso daquele que mais precisa! </h2>
+            <h2 class="mb-5">Comece a dor com <strong>ISeeU-Platform</strong>, plataforma pensado em voce que é doador e gosta de ver o sorriso daquele que mais precisa! </h2>
           </div>
           <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <form action="{{URL('email')}}" method="get">

@@ -42,7 +42,7 @@
               <a class="nav-link js-scroll-trigger" href="#services">Features</a>
             </li>
             <div class="col-12 col-md-6">
-              <button type="submit" class="btn btn-block btn-primary">Sign up!</button>
+              <a href="#email_form_1" class="btn btn-block btn-primary text-white">Sign up!</a>
             </div>
           </ul>
         </div>
@@ -61,7 +61,7 @@
       </div>
     </header>
 
-    <section class="bg-dark text-center">
+    <section id="email_form_1" class="bg-dark text-center">
         <div class="col-md-10 col-lg-8 col-xl-7 mx-auto">
             <div class="col-xl-9 mx-auto text-white text-center">
               <h2 class="mb-4">Deixe o seu email para uma melhor experiencia com a nossa plataforma!</h2>
@@ -96,7 +96,9 @@
                 <i class="icon-screen-desktop m-auto text-primary"></i>
               </div>
               <h3>Voluntario</h3>
-              <p class="lead mb-0">This theme will look great on any device, no matter the size!</p>
+              <p class="lead mb-0">Sustainable Development</p>
+              <p class="lead mb-0">Giving time over money</p>
+              <p class="lead mb-0">Preserving Nature</p>
             </div>
           </div>
           <div class="col-lg-4">
@@ -114,7 +116,9 @@
                 <i class="icon-check m-auto text-primary"></i>
               </div>
               <h3>Doador</h3>
-              <p class="lead mb-0">Ready to use with your own content, or customize the source files!</p>
+              <p class="lead mb-0">Give money directly to people and families in need</p>
+              <p class="lead mb-0">Montly regular donations</p>
+              <p class="lead mb-0">Donate online with credit cards and internet platforms</p>
             </div>
           </div>
         </div>
@@ -180,7 +184,7 @@
     </section>
 
     <!-- Call to Action -->
-    <section class="call-to-action text-white text-center">
+    <section id="email_form_2" class="call-to-action text-white text-center">
       <div class="overlay"></div>
       <div class="container">
         <div class="row">

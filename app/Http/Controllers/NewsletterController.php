@@ -29,7 +29,7 @@ class NewsletterController extends Controller
             }
         }
 
-        try{
+       
             Mailchimp::subscribe(
 
                 '145f5f931a', //list id
@@ -37,10 +37,6 @@ class NewsletterController extends Controller
                 [],
                 false
             );
-    
-        }catch(Exception $e){
-            return redirect()->back();
-        }
         
         return view('confirmationpage');
         

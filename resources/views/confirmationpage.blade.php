@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>ISeeU - Charity - pagina de confirmacao</title>
+    <title>ISeeU - Charity - Seu email foi enviado com sucesso!</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">

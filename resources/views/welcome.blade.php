@@ -214,7 +214,7 @@
               </a>
             </li>
             <li class="list-inline-item mr-3 social-web">
-              <a>
+              <a href="#">
                 <i class="fa fa-twitter  fa-fw"></i>
               </a>
             </li>
@@ -235,7 +235,7 @@
               </a>
             </li>
             <li class="list-inline-item mr-3 social-web">
-              <a>
+              <a href="#">
                 <i class="fa fa-twitter  fa-fw"></i>
               </a>
             </li>
@@ -258,7 +258,7 @@
                 </a>
               </li>
               <li class="list-inline-item mr-3 social-web">
-                <a>
+                <a href="#">
                   <i class="fa fa-twitter  fa-fw"></i>
                 </a>
               </li>
@@ -280,7 +280,7 @@
                   </a>
                 </li>
                 <li class="list-inline-item mr-3 social-web">
-                  <a>
+                  <a href="#">
                     <i class="fa fa-twitter  fa-fw"></i>
                   </a>
                 </li>

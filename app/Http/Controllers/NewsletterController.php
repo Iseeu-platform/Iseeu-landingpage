@@ -7,6 +7,7 @@ use Mailchimp;
 
 use Illuminate\Http\Request;
 use PHPUnit\Framework\MockObject\Stub\Exception;
+use Illuminate\Support\Facades\Mail;
 
 class NewsletterController extends Controller
 {
@@ -23,6 +24,7 @@ class NewsletterController extends Controller
          */
 
         if ($request['email']) {
+
             if (Mailchimp::check('145f5f931a', $request['email'])) {
 
                 if ($request['form'] == '1') {
@@ -43,11 +45,28 @@ class NewsletterController extends Controller
 
             return view('confirmationpage');
 
-        }
-        else{
+        } else {
             return redirect()->back();
         }
     }
 
+    /*
+
+     function sendemail()
+    {
+
+        $data = array(
+            'name' => "Obrigado",
+        );
+
+        Mail::send('welcome', $data, function ($message) {
+
+            $message->from('ailsonesi96@gmail.com', 'ISeeU - Charity');
+            $message->to("iseeuplatform@gmail.com")->subject('Obrigado por inscrever na nossa plataforma.');
+
+        });
+    }
+
+     */
 
 }

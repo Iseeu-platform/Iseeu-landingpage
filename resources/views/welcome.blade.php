@@ -58,10 +58,10 @@
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav ml-auto">
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#team">Team</a>
+            <a class="nav-link js-scroll-trigger" href="#equipa">Equipa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="#services">Features</a>
+            <a class="nav-link js-scroll-trigger" href="#solucao">Solucao</a>
           </li>
           <div class="col-12 col-md-6">
             <a href="#email_form_1" class="btn btn-block btn-success text-white sign-up">Inscreva-se!</a>
@@ -111,16 +111,22 @@
   </section>
 
   <!-- Icons Grid -->
+    <!--  
   <section class="features-icons bg-light text-center">
     <div class="container">
-      <div class="row">
+        <div class="col-xl-9 mx-auto">
+            <h2 class="mb-4">Nossa solucao</h2>
+          </div>
+        <img class="col-lg-7" src="./img/solution.png">
+      <div class="row">   
         <div class="col-lg-4">
           <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
             <div class="features-icons-icon d-flex">
               <i class="icon-screen-desktop m-auto text-primary"></i>
             </div>
             <h3>Voluntario</h3>
-            <p class="lead mb-0">Sustainable Development</p>
+            <p class="lead mb-0">No ano passado, 77% dos brasileiros fizeram algum tipo de doação. Desses, 
+              62% doaram bens, 52% doaram dinheiro e 34% doaram seu tempo para algum trabalho voluntário.</p>
             <p class="lead mb-0">Giving time over money</p>
             <p class="lead mb-0">Preserving Nature</p>
           </div>
@@ -145,22 +151,27 @@
             <p class="lead mb-0">Donate online with credit cards and internet platforms</p>
           </div>
         </div>
+        
       </div>
     </div>
   </section>
+  -->
 
+  
   <!-- Image Showcases -->
-  <section class="showcase">
+  <section id="solucao" class="showcase">
     <div class="container-fluid p-0">
       <div class="row no-gutters">
-
-        <div class="col-lg-6 order-lg-1 text-white showcase-img" style="background-image: url('img/iseeyou.jpg');"></div>
+        <div class="col-lg-6 order-lg-1 text-white showcase-img" style="background-image:url('img/solution.png');"></div>
         <div class="col-lg-6 order-lg-1 my-auto showcase-text">
-          <h2>ISeeU - Charity</h2>
-          <p class="lead mb-0">A ISeeU gere donativos através de um processo em que os apoiantes são voluntários e doadores. Nossa plataforma conecta projetos liderados por voluntários com doadores e a recompensa  é um serviço fornecido por voluntários de todo o mundo, como incentivo para doar dinheiro a projectos de caridade.
-              Tempo é dinheiiro, use um ou o outro para mudar vidas!</p>
+          <h2>Solucao</h2>
+          <p class="lead mb-0">O foco principal da ISeeU é conectar campanhas solidarias lideras por voluntários com doadores, onde se recebe um premio por doar. Este premio pode ser um serviço desenvolvido pelo nosso voluntario desde criação de sites, aulas de música ou sessões de coaching entre muitos outros. Com isso queremos diminuir as diferenças no impacto das doações, porque se tempo é dinheiro então alguém que doa o seu tempo merece os mesmos créditos.
+              A ISeeU quer ter um papel grande no futuro das doações e no impacto do trabalho voluntariado, dando enfâse no trabalho voluntario tanto para ajudar os outros como também um meio para o autodesenvolvimento. Através de parcerias com universidades o trabalho voluntario será visto como um estagio profissional, onde jovens terão oportunidades de ganhar experiencia ajudando quem mais precisa.
+              O foco é o voluntario, mas o doador também ganha. Na ISeeU acreditamos que doar dinheiro não deve ser dinheiro sem retorno, por isso ainda oferecemos serviços que de outra maneira poderiam ser pagos. A ISeeU ajuda-te quando ajudas quem mais precisa. 
+              Tempo é dinheiro, use um ou o outro para mudar vidas.</p>
         </div>
       </div>
+      <!--
       <div class="row no-gutters">
         <div class="col-lg-6  order-lg-2 text-white showcase-img" style="background-image: url('img/bg-showcase-2.jpg');"></div>
         <div class="col-lg-6 my-auto showcase-text">
@@ -177,11 +188,12 @@
             Out of the box, just add your content and images, and your new landing page will be ready to go!</p>
         </div>
       </div>
+      -->
     </div>
   </section>
 
   <!-- team -->
-  <section id="team" class="testimonials text-center bg-light">
+  <section id="equipa" class="testimonials text-center bg-light">
     <div class="container">
       <h2 class="mb-5">Conheça a equipa</h2>
       <div class="row">
@@ -192,12 +204,12 @@
             <p class="font-weight-light mb-0">CEO &amp; Co-Fundador</p>
           </div>
           <li class="list-inline-item mr-3 social-web">
-              <a>
+              <a href="https://www.linkedin.com/in/ailson-moreira-340b40161/">
                 <i class="fa fa-linkedin fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item mr-3 social-web">
-              <a>
+              <a href="https://www.facebook.com/britoken?lst=100026045166323%3A100000533738462%3A1536781062">
                 <i class="fa fa-facebook  fa-fw"></i>
               </a>
             </li>
@@ -213,12 +225,12 @@
             <h5>Ailson Moreira</h5>
             <p class="font-weight-light mb-0">Fullstack developer &amp; Co-Fundador</p>
             <li class="list-inline-item mr-3 social-web">
-              <a>
+              <a href="">
                 <i class="fa fa-linkedin fa-fw"></i>
               </a>
             </li>
             <li class="list-inline-item mr-3 social-web">
-              <a>
+              <a href="https://www.facebook.com/profile.php?id=100026045166323">
                 <i class="fa fa-facebook  fa-fw"></i>
               </a>
             </li>
@@ -233,15 +245,15 @@
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="img/jonny.jpg" alt="">
               <h5>Jhonny Mosquera</h5>
-              <p class="font-weight-light mb-0">Consultor blockchain</p>
+              <p class="font-weight-light mb-0">Consultor negócio</p>
             </div>
             <li class="list-inline-item mr-3 social-web">
-                <a>
+                <a href="https://www.linkedin.com/in/jhonnymosqueracoach">
                   <i class="fa fa-linkedin fa-fw"></i>
                 </a>
               </li>
               <li class="list-inline-item mr-3 social-web">
-                <a>
+                <a href="https://www.facebook.com/anitajhonny.mosquera?lst=100026045166323%3A100000604119602%3A1536781157">
                   <i class="fa fa-facebook  fa-fw"></i>
                 </a>
               </li>
@@ -255,15 +267,15 @@
               <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                 <img class="img-fluid rounded-circle mb-3" src="img/ayrton.jpg" alt="">
                 <h5>Ayrthon Gomes</h5>
-                <p class="font-weight-light mb-0">Consultor negócio</p>
+                <p class="font-weight-light mb-0">Consultor blockchain</p>
               </div>
               <li class="list-inline-item mr-3 social-web">
-                  <a>
+                  <a href="https://www.linkedin.com/in/ayrtongomes/">
                     <i class="fa fa-linkedin fa-fw"></i>
                   </a>
                 </li>
                 <li class="list-inline-item mr-3 social-web">
-                  <a>
+                  <a href="https://www.facebook.com/ayrtongomes?lst=100026045166323%3A100000560716322%3A1536781197">
                     <i class="fa fa-facebook  fa-fw"></i>
                   </a>
                 </li>
@@ -307,6 +319,49 @@
       </div>
     </div>
   </section>
+
+
+
+  <!-- NOTICIA -->
+  <section class="features-icons bg-light text-center">
+      <div class="container">
+        <div class="row">
+            <div class="col-xl-9 mx-auto">
+                <h2 class="mb-4">Saiba +</h2>
+              </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="fa fa-handshake-o m-auto"></i>
+              </div>
+              <h3>Voluntario</h3>
+              <p class="lead mb-0">No Brazil em 2017, 7,4 Milhões de pessoas realizaram trabalho 
+                voluntário, 18% população pratica voluntariado.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="icon-heart m-auto"></i>
+              </div>
+              <h3>Projectos</h3>
+              <p class="lead mb-0">No ano passado, 77% dos brasileiros fizeram algum tipo de doação. Desses, 
+                  62% doaram bens, 52% doaram dinheiro e 34% doaram seu tempo para algum trabalho voluntário.</p>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <div class="features-icons-item mx-auto mb-0 mb-lg-3">
+              <div class="features-icons-icon d-flex">
+                <i class="fa fa-money m-auto"></i>
+              </div>
+              <h3>Doador</h3>
+              <p class="lead mb-0">Uma dos principais factores para parar de doar é a desconfiança 
+                nas organizações da sociedade civil 17% da população.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
   <!-- Footer -->

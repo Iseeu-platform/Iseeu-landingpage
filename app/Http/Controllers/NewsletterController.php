@@ -8,6 +8,7 @@ use Mailchimp;
 use Illuminate\Http\Request;
 use PHPUnit\Framework\MockObject\Stub\Exception;
 use Illuminate\Support\Facades\Mail;
+use App\Mail\EmailSubscriber;
 
 class NewsletterController extends Controller
 {
@@ -25,6 +26,8 @@ class NewsletterController extends Controller
 
         if ($request['email']) {
 
+            //Mail::to($request['email'])->send(new EmailSubscriber());
+
             if (Mailchimp::check('145f5f931a', $request['email'])) {
 
                 if ($request['form'] == '1') {
@@ -35,6 +38,7 @@ class NewsletterController extends Controller
             }
 
 
+            try{
             Mailchimp::subscribe(
 
                 '145f5f931a', //list id
@@ -43,6 +47,11 @@ class NewsletterController extends Controller
                 false
             );
 
+        }catch(Exception $e){
+
+
+        }
+
             return view('confirmationpage');
 
         } else {
@@ -50,23 +59,9 @@ class NewsletterController extends Controller
         }
     }
 
-    /*
 
-     function sendemail()
-    {
+    function email(Request $request){
 
-        $data = array(
-            'name' => "Obrigado",
-        );
-
-        Mail::send('welcome', $data, function ($message) {
-
-            $message->from('ailsonesi96@gmail.com', 'ISeeU - Charity');
-            $message->to("iseeuplatform@gmail.com")->subject('Obrigado por inscrever na nossa plataforma.');
-
-        });
+        Mail::to($request->email())->send(new EmailSubscriber());
     }
-
-     */
-
 }

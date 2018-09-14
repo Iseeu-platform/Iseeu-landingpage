@@ -168,7 +168,7 @@
         <div class="col-lg-6 order-lg-1 my-auto showcase-text;" style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif">
             <h2 class="mb-5">A nossa missão</h2>
           <p class="lead mb-0" style="text-align: justify">
-            <p class="lead mb-3" style="text-align: justify">O foco principal da ISeeU é <strong>conectar campanhas solidarias lideras por voluntários com doadores</strong>, onde se recebe um premio por doar. 
+            <p class="lead mb-3" style="text-align: justify">O foco principal da ISeeU é <strong>conectar campanhas solidarias lideradas por voluntários com doadores</strong>, onde se recebe um premio por doar. 
             Este premio pode ser um serviço desenvolvido pelo nosso voluntario desde criação de sites, aulas de música ou sessões de coaching entre muitos outros.</p> 
             <p class="lead mb-3" style="text-align: justify">Com isso queremos diminuir as diferenças no impacto das doações, porque se tempo é dinheiro então alguém que doa o seu tempo merece os mesmos créditos.
               A ISeeU quer ter um papel grande no futuro das doações e no impacto do trabalho voluntariado, dando enfâse no trabalho voluntario tanto para ajudar os outros como também um meio para o autodesenvolvimento.</p> 
@@ -252,7 +252,7 @@
             <div class="testimonial-item mx-auto mb-5 mb-lg-0">
               <img class="img-fluid rounded-circle mb-3" src="img/jonny.jpg" alt="">
               <h5>Jhonny Mosquera</h5>
-              <p class="font-weight-light mb-0">Consultor negócio</p>
+              <p class="font-weight-light mb-0">Advisor</p>
               <li class="list-inline-item mr-3 social-web">
                 <a href="https://www.linkedin.com/in/jhonnymosqueracoach">
                   <i class="fa fa-linkedin fa-fw"></i>
@@ -274,7 +274,7 @@
               <div class="testimonial-item mx-auto mb-5 mb-lg-0">
                 <img class="img-fluid rounded-circle mb-3" src="img/ayrton.jpg" alt="">
                 <h5>Ayrthon Gomes</h5>
-                <p class="font-weight-light mb-0">Consultor blockchain</p>
+                <p class="font-weight-light mb-0">Advisor</p>
                 <li class="list-inline-item mr-3 social-web">
                   <a href="https://www.linkedin.com/in/ayrtongomes/">
                     <i class="fa fa-linkedin fa-fw"></i>

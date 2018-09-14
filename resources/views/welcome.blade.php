@@ -61,7 +61,7 @@
             <a class="nav-link" href="#equipa">Equipa</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#solucao">Solucao</a>
+            <a class="nav-link " href="#solucao">Missão</a>
           </li>
           <div class="col-12 col-md-6">
             <a href="#email_form_1" class="btn btn-block btn-success text-white sign-up">Inscreva-se!</a>

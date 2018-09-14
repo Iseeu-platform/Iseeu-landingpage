@@ -272,7 +272,7 @@
           </div>
           <div class="col-lg-3">
               <div class="testimonial-item mx-auto mb-5 mb-lg-0">
-                <img class="img-fluid rounded-circle mb-3" src="img/ayrton.jpg" alt="">
+                <img class="img-fluid rounded-circle mb-3" src="img/ay.jpg" alt="">
                 <h5>Ayrthon Gomes</h5>
                 <p class="font-weight-light mb-0">Advisor</p>
                 <li class="list-inline-item mr-3 social-web">

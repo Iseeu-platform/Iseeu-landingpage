@@ -210,7 +210,7 @@
             <h5>Kenio de Brito</h5>
             <p class="font-weight-light mb-0">CEO &amp; Co-Fundador</p>
             <li class="list-inline-item mr-3 social-web">
-              <a href="https://www.linkedin.com/in/ailson-moreira-340b40161/">
+              <a href="https://www.linkedin.com/in/k%C3%A9nio-de-brito-3a0233138/">
                 <i class="fa fa-linkedin fa-fw"></i>
               </a>
             </li>
@@ -232,7 +232,7 @@
             <h5>Ailson Moreira</h5>
             <p class="font-weight-light mb-0">Fullstack developer &amp; Co-Fundador</p>
             <li class="list-inline-item mr-3 social-web">
-              <a href="">
+              <a href="https://www.linkedin.com/in/ailson-moreira-340b40161/">
                 <i class="fa fa-linkedin fa-fw"></i>
               </a>
             </li>
